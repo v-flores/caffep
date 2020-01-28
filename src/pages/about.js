@@ -5,7 +5,7 @@ import { Link, graphql } from 'gatsby';
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import BackgroundSection from '../components/Globals/Backgroundsection'
-import About from '../components/Home/About';
+
 
 const AboutPage = ({ data }) => (
   <Layout>
@@ -15,7 +15,7 @@ const AboutPage = ({ data }) => (
     title="About Us" 
     styleClass="about-background"
    />
-   <About></About>
+   
   </Layout>
 );
 
