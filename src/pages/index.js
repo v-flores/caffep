@@ -7,16 +7,18 @@ import SEO from "../components/seo"
 import BackgroundSection from '../components/Globals/Backgroundsection'
 import Info from '../components/Home/Info';
 import Menu from '../components/Home/Menu';
+import Contact from '../components/Home/Contact';
 
 const IndexPage = ({ data }) => (
   <Layout>
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+    <SEO title="Caffe Pietro - Home" keywords={[`gatsby`, `application`, `react`]} />
    <BackgroundSection 
     img={data.img.childImageSharp.fluid} 
     title="Get a taste of the real Italy!" 
    />
    <Info />
    <Menu items={data.menu}/>
+   <Contact />
   </Layout>
 );
 
@@ -34,9 +36,6 @@ export const query = graphql`
       node {
         id
         title
-        description {
-          description
-        }
         price
         category
         image {

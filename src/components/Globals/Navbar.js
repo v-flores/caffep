@@ -7,7 +7,7 @@ import {FaCoffee} from 'react-icons/fa'
 export default class Navbar extends Component {
   state = {
     navbarOpen:false,
-    css:'collapse navbar-collapse',
+    css:'strong collapse navbar-collapse',
     links:[
       {
         id:1,
@@ -33,7 +33,7 @@ export default class Navbar extends Component {
   render() {
     return <nav className="navbar navbar-expand-sm bg-light navbar-light">
     <Link to="/" className="navbar-brand">
-    <h1>Caffè<FaCoffee className="cart-icon" />Pronto</h1>
+    <h1>Caffè<FaCoffee className="cart-icon" />Pietro</h1>
      {/* https://www.iconfinder.com/icons/185113/coffee_streamline_icon
 Creative Commons (Attribution 3.0 Unported);
 https://www.iconfinder.com/webalys */}

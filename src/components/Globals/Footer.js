@@ -6,8 +6,8 @@ export default function Footer() {
       <div className="container">
       <div className="row">
       <div className="col-10 mx-auto col-md-6 text-yellow text-center text-capitalize">
-      <h3>All Rights Reserved &#169; {new Date().getFullYear().toString()}
-      </h3>
+      <p>All Rights Reserved &#169; - Built by Victor F. {new Date().getFullYear().toString()}
+      </p>
       </div>
       </div>
       </div>
